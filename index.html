@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoe verse | step into style</title>
+    <!--! .Remix icon cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+        integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- !css link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- ! favicon  -->
+     <link rel="shortcut icon" href="assets/favicon.webp" type="image/x-icon" />
+</head>
+
+<body>
+    <!-- ! Home Page Starts Here -->
+    <section id="home_page">
+        <!-- @ nav part -->
+        <nav>
+            <aside id="nav_one">
+                <h1> <button onclick="pagereload()" id="btnanimation"> ShoeVerse</button></h1>
+            </aside>
+
+            <aside id="nav_two">
+                <a href="#brands_page">Brands</a>
+                <a href="#products_page">Shop</a>
+                <a href="#contact_page">Contact</a>
+            </aside>
+
+            <aside id="nav_three">
+                <div id="cart_container">
+                    <i class="ri-shopping-cart-2-line" id="cart"></i>
+                    <div id="cart_quantity">0</div>
+                </div>
+            </aside>
+        </nav>
+
+        <!-- @ header part -->
+
+        <header>
+            <h1>Step Into Style</h1>
+            <p>Discover sneakers that define comfort, style and <br> performance</p>
+        </header>
+    </section>
+    <!-- ! Home Page Ends Here -->
+
+
+    <!-- !Side Bar Starts Here -->
+    <section id="sidebar">
+        <aside id="sidebar1">
+            <h1>Your Cart</h1>
+            <p id="close_btn"><button>&times;</button></p>
+
+        </aside>
+        <aside id="sidebar2">
+
+
+        </aside>
+        <aside id="sidebar3">
+            <h2>Total:₹<span>0.00</span></h2>
+            <button>Buy Now</button>
+
+        </aside>
+
+    </section>
+
+    <!-- ! Side Bar Ends Here -->
+
+
+
+
+    <!-- !Brands Page Starts Heere -->
+
+    <section id="brands_page">
+
+        <aside id="brand1">
+            <h2>Popular Brands</h2>
+        </aside>
+
+        <aside id="brand2">
+            <article class="brands_container">
+
+                <img src="./assets/adidas.webp" alt="" id="p">
+                <div class="layer">ADIDAS</div>
+
+            </article>
+            <article class="brands_container">
+
+                <img src="./assets/nike.webp" alt="" id="p">
+                <div class="layer">NIKE</div>
+
+            </article>
+            <article class="brands_container">
+
+                <img src="./assets/puma.webp" alt="" id="p">
+                <div class="layer">PUMA</div>
+
+            </article>
+            <article class="brands_container">
+
+                <img src="./assets/redtape.webp" alt="" id="p">
+                <div class="layer">REDTAPE</div>
+
+            </article>
+            <article class="brands_container">
+
+                <img src="./assets/reebok.webp" alt="" id="p">
+                <div class="layer">REEBOK</div>
+
+            </article>
+            <article class="brands_container">
+
+                <img src="./assets/uspolo.webp" alt="" id="p">
+                <div class="layer">U.S.POLO</div>
+
+            </article>
+        </aside>
+
+
+    </section>
+
+    <!-- !Brands Page ENds Heere -->
+
+
+
+    <!-- !Products PAge Starts Here -->
+    <section id="products_page">
+        <aside id="products_page1">
+            <h1>Products Page</h1>
+        </aside>
+
+        <aside id="products_page2">
+            <button data-name="all" class="active">All</button>
+            <button data-name="adidas">Adidas</button>
+            <button data-name="nike">Nike</button>
+            <button data-name="puma">Puma</button>
+            <button data-name="redtape">Redtape</button>
+            <button data-name="reebok">Reebok</button>
+            <button data-name="uspolo">US.Polo</button>
+
+
+        </aside>
+
+        <aside id="products_page3">
+            <article class="shoe_container" data-name="adidas">
+                <img src="./assets/adidas1.webp" alt="">
+                <h5>Men | Sports</h5>
+                <h1>Adidas Pivot Court</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹2214.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+
+            <article class="shoe_container" data-name="adidas">
+                <img src="./assets/adidas2.webp" alt="">
+                <h5>Men | Sneakers</h5>
+                <h1>Adidas Kamarax Pro</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹2200.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+            <article class="shoe_container" data-name="nike">
+                <img src="./assets/nike1.webp" alt="">
+                <h5>Men | Sports</h5>
+                <h1>Nike Journey Run</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹5097.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+
+            <article class="shoe_container" data-name="nike">
+                <img src="./assets/nike2.webp" alt="">
+                <h5>Men | Sneakers</h5>
+                <h1>Nike Heritage Vulc</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹5495.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+
+            <article class="shoe_container" data-name="puma">
+                <img src="./assets/puma1.webp" alt="">
+                <h5>Men | Sports</h5>
+                <h1>Puma Deviate Nitro</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹14999.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+
+            <article class="shoe_container" data-name="puma">
+                <img src="./assets/puma2.webp" alt="">
+                <h5>Men | Sneakers</h5>
+                <h1>Puma Ferrari Future</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹5999.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+            <article class="shoe_container" data-name="redtape">
+                <img src="./assets/rtape1.webp" alt="">
+                <h5>Men | Sports</h5>
+                <h1>Redtape ETPU Sports</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹1700.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+            <article class="shoe_container" data-name="redtape">
+                <img src="./assets/rtape2.webp" alt="">
+                <h5>Men | Sneakers</h5>
+                <h1>Redtape Casual</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹1200.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+
+            <article class="shoe_container" data-name="reebok">
+                <img src="./assets/rbk1.webp" alt="">
+                <h5>Men | Sports</h5>
+                <h1>Reebok Tread Motion</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>1850.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+
+            <article class="shoe_container" data-name="reebok">
+                <img src="./assets/rbk2.webp" alt="">
+                <h5>Men | Sports</h5>
+                <h1>Reebok Force Runner</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹2999.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+
+            <article class="shoe_container" data-name="uspolo">
+                <img src="./assets/uspolo.webp" alt="">
+                <h5>Men | Sneakers</h5>
+                <h1>U.S. Polo Lightweight</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹2500.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+            <article class="shoe_container" data-name="uspolo">
+                <img src="./assets/usp2.webp" alt="">
+                <h5>Men | Sneakers</h5>
+                <h1>U.S. Polo Assn Baise</h1>
+
+                <div class="price_size">
+                    <aside class="price_size1">
+                        <p>₹3215.00</p>
+
+                    </aside>
+                    <aside class="price_size2">
+                        <select>
+                            <option selected disabled>Select Size</option>
+                            <option>6</option>
+                            <option>7</option>
+                            <option>8</option>
+                            <option>9</option>
+                            <option>10</option>
+                        </select>
+                        <div class="addtocart">
+                            <i class="ri-shopping-cart-2-line"></i>
+
+                        </div>
+
+                    </aside>
+
+
+                </div>
+
+            </article>
+        </aside>
+
+    </section>
+
+
+
+    <!--! Products page Ends Here -->
+
+
+
+    <!-- !Information Page Starts Here -->
+  
+      <section id="info_page">
+        <article class="info_container section-animate">
+            <aside class="info_container1">
+                <div>
+                    <i class="ri-truck-line"></i>
+                </div>
+            </aside>
+            <aside class="info_container2">
+                <h2>Free Shipping</h2>
+                <p>All orders over <span>₹1500</span></p>
+            </aside>
+        </article>
+
+        <article class="info_container section-animate">
+            <aside class="info_container1">
+                <div>
+                    <i class="ri-bank-card-line"></i>
+                </div>
+            </aside>
+            <aside class="info_container2">
+                <h2>Quick Payment</h2>
+                <p>100% secure payment</p>
+            </aside>
+        </article>
+
+        <article class="info_container section-animate">
+            <aside class="info_container1">
+                <div>
+                    <i class="ri-replay-30-fill"></i>
+                </div>
+            </aside>
+            <aside class="info_container2">
+                <h2>Free Returns</h2>
+                <p>Money back in 30 days </p>
+            </aside>
+        </article>
+
+        <article class="info_container section-animate">
+            <aside class="info_container1">
+                <div>
+                    <i class="ri-customer-service-2-fill"></i>
+                </div>
+            </aside>
+            <aside class="info_container2">
+                <h2>24/7 Support</h2>
+                <p>Get Quick Support</p>
+            </aside>
+        </article>
+    </section>
+
+
+    <section id="info_images">
+        <marquee behavior="scroll" direction="right" scrollamount="all">
+            <img src="./assets/insta-1.jpg" alt="" />
+            <img src="./assets/insta-2.jpg" alt="" />
+            <img src="./assets/insta-3.jpg" alt="" />
+            <img src="./assets/insta-4.jpg" alt="" />
+            <img src="./assets/insta-5.jpg" alt="" />
+            <img src="./assets/insta-6.jpg" alt="" />
+            <img src="./assets/insta-7.jpg" alt="" />
+            <img src="./assets/insta-8.jpg" alt="" />
+        </marquee>
+    </section>
+
+    <!-- !Information Page Ends Here -->
+
+
+
+    <!-- !Contact page Starts Here -->
+    <section id="contact_page">
+
+        <article id="contact_page1">
+            <aside id="contact_info1">
+                <div id="info1">
+                    <h1 class="">Contact Us</h1>
+                </div>
+                <div id="info2">
+                    <p class="">📌 Chaitanyapuri,Telangana-500065</p>
+                    <p class=""> 📞 9346834054</p>
+                    <p class="">📩 shoeverse@gmail.com</p>
+                </div>
+            </aside>
+
+
+            <aside id="contact_info2">
+                <div id="info3">
+                    <h1>Feedback Form</h1>
+                </div>
+                <form action="https://api.web3forms.com/submit" method="POST" id="info4">
+                    <input type="hidden" name="access_key" value="a92ca01e-4218-4cbc-90bd-bc8518ecad47">
+                    <textarea name="feedback" id="feedback" placeholder="Enter your feedback here...">
+
+            </textarea>
+                    <button type="submit">Submit Feedback</button>
+                </form>
+
+            </aside>
+
+            <aside id="contact_info3">
+                <div id="info5">
+                    <h1>Opening Time</h1>
+                </div>
+                <div id="info6">
+                    <p class="timings">🌞 Mon - Fri: 8AM - 10PM</p>
+                    <p class="timings">🌥️ Sat: 8AM - 8PM</p>
+                    <p class="timings">🔐 Sun: Closed</p>
+                </div>
+            </aside>
+
+        </article>
+        <footer id="contact_page2">
+            <p>&copy; 2025 ShoeVerse | This Website Designed By Vijay Kumar Kolanu</p>
+        </footer>
+    </section>
+
+
+    <!-- !Contact Page Ends here -->
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
